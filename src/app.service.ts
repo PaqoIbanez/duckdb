@@ -6,8 +6,6 @@ const db = new Database(':memory:');
 @Injectable()
 export class AppService {
    getHello(): string {
-
- 
       return 'Todo ok';
    }
 }
